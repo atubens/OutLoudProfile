@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anthony Tubens Profile</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    img.profile {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin: 10px 0 5px 0;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 400;
+      color: #cfcfcf;
+      margin: 0;
+    }
+
+    .rating {
+      margin: 10px 0;
+      font-size: 18px;
+      color: gold;
+    }
+
+    .tags {
+      margin: 10px 0 20px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #290066;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 18px;
+      font-size: 14px;
+    }
+
+    .bio {
+      max-width: 600px;
+      margin: 20px auto;
+      font-size: 16px;
+      color: #cccccc;
+    }
+
+    .button-container {
+      margin: 25px 0;
+    }
+
+    .button {
+      background: linear-gradient(to right, #6417f8, #8e28ed);
+      border: none;
+      color: white;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 24px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+
+    .posts-title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .posts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 15px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .post-img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <img src="anthony-profile.jpg" alt="Anthony Tubens Profile" class="profile" />
+
+  <h1>Anthony Tubens</h1>
+  <h2>Long Island, NY</h2>
+
+  <div class="rating">★★★★★ <span style="color: #f0c040;">4.9</span></div>
+
+  <div class="tags">
+    <span class="tag">Guitarist</span>
+    <span class="tag">Blues</span>
+    <span class="tag">Rock</span>
+    <span class="tag">Intermediate</span>
+    <span class="tag">Band Experience</span>
+  </div>
+
+  <div class="bio">
+    Anthony is a passionate guitarist with a focus on blues and rock. With experience playing in local bands and a dedication to refining his craft, he's ready to bring feel and flavor to your next gig.
+  </div>
+
+  <div class="button-container">
+    <button class="button">Request Availability</button>
+    <button class="button">Message</button>
+  </div>
+
+  <div class="posts-title">Posts</div>
+
+  <div class="posts-grid">
+    <img src="IMG_2796.jpeg" alt="Post 1" class="post-img" />
+    <img src="IMG_7592.jpeg" alt="Post 2" class="post-img" />
+    <img src="GUITARME.jpeg" alt="Post 3" class="post-img" />
+    <img src="IMG_0749.jpeg" alt="Post 4" class="post-img" />
+    <img src="IMG_0750.jpeg" alt="Post 5" class="post-img" />
+    <img src="IMG_0748.jpeg" alt="Post 6" class="post-img" />
+  </div>
+</body>
+</html>
